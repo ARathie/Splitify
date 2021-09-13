@@ -7,6 +7,7 @@ import {
   TableCell,
 } from "@windmill/react-ui";
 
+// NOT DONE, EXAMPLE BOILERPLATE
 function TransactionList() {
   return (
     <TableContainer>
