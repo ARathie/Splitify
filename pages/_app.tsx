@@ -1,7 +1,12 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import { Windmill } from "@windmill/react-ui";
+import type { AppProps } from "next/app";
+import "../styles/index.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <Windmill>
+      <Component {...pageProps} />
+    </Windmill>
+  );
 }
-export default MyApp
+export default MyApp;
